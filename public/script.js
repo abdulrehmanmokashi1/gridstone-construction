@@ -1,3 +1,5 @@
+const API_URL = "https://gridstone-construction.onrender.com"; 
+
 // Select project from card and scroll to form
 function selectProject(projectName) {
     const projectSelect = document.getElementById('projectInterest');
@@ -58,7 +60,7 @@ document.getElementById('enquiryForm').addEventListener('submit', async (e) => {
         submitBtn.disabled = true;
         submitBtn.textContent = 'Submitting...';
         
-        const response = await fetch('/api/enquire', {
+        const response = await fetch(`${API_URL}/api/enquire`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
