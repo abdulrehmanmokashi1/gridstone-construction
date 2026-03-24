@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRIDSTONE Developers | Premium Real Estate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="logo">GRIDSTONE<span>DEVELOPERS</span></div>
+    <div class="nav-links">
+        <a href="#projects">Our Portfolio</a>
+        <a href="#enquire" class="btn-nav-primary">Enquire Now</a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="hero-content">
+        <span class="hero-badge">ESTABLISHED 2026</span>
+        <h1>Architecting Tomorrow's Skyline</h1>
+        <p>Luxury Residential & Commercial Developments</p>
+        <a href="#projects" class="cta-hero">Explore Our Projects</a>
+    </div>
+    <div class="hero-background"></div>
+</section>
+
+<!-- About Section -->
+<section class="about-section">
+    <div class="about-content">
+        <div class="about-text">
+            <h2>About GridStone</h2>
+            <p>With over 15 years of excellence in real estate development, GridStone delivers premium architectural projects across residential, commercial, and lifestyle segments. We combine innovation with sustainability.</p>
+            <div class="about-stats">
+                <div class="stat">
+                    <h3>50+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat">
+                    <h3>25000+</h3>
+                    <p>Happy Investors</p>
+                </div>
+                <div class="stat">
+                    <h3>₹5000Cr+</h3>
+                    <p>Total Development</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=600" alt="Modern Architecture">
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="section-header">
+        <h2>Our Ongoing Developments</h2>
+        <p>Discover our carefully curated luxury landmarks</p>
+    </div>
+
+    <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800" alt="The Azure Residences">
+                <div class="project-overlay">
+                    <button onclick="selectProject('The Azure')" class="overlay-btn">Enquire Now</button>
+                </div>
+            </div>
+            <div class="badge badge-residential">Residential</div>
+            <div class="project-info">
+                <h3>The Azure Residences</h3>
+                <p class="project-desc">Ultra-luxury 4BHK Sky Villas with premium amenities</p>
+                <div class="project-details">
+                    <span>📍 Central District</span>
+                    <span>Starting ₹4.5Cr</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800" alt="Titanium Business Hub">
+                <div class="project-overlay">
+                    <button onclick="selectProject('Titanium Hub')" class="overlay-btn">Enquire Now</button>
+                </div>
+            </div>
+            <div class="badge badge-commercial">Commercial</div>
+            <div class="project-info">
+                <h3>Titanium Business Hub</h3>
+                <p class="project-desc">State-of-the-art office spaces with smart infrastructure</p>
+                <div class="project-details">
+                    <span>📍 Business District</span>
+                    <span>Flexible Starting Plans</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800" alt="Green Meadows">
+                <div class="project-overlay">
+                    <button onclick="selectProject('Green Meadows')" class="overlay-btn">Enquire Now</button>
+                </div>
+            </div>
+            <div class="badge badge-lifestyle">Lifestyle</div>
+            <div class="project-info">
+                <h3>Green Meadows</h3>
+                <p class="project-desc">Sustainable gated community with eco-friendly architecture</p>
+                <div class="project-details">
+                    <span>📍 Outskirts</span>
+                    <span>Starting ₹85L</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section">
+    <div class="section-header">
+        <h2>Why Choose GridStone?</h2>
+        <p>Excellence in every aspect of development</p>
+    </div>
+    
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">🏗️</div>
+            <h3>Premium Quality</h3>
+            <p>Built with the finest materials and expert craftsmanship</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🌱</div>
+            <h3>Sustainable Design</h3>
+            <p>Eco-friendly construction with green spaces</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🔒</div>
+            <h3>Complete Security</h3>
+            <p>24/7 surveillance and gated community access</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🚀</div>
+            <h3>Smart Technology</h3>
+            <p>IoT-enabled homes and smart amenities</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">💰</div>
+            <h3>Flexible Payment</h3>
+            <p>Multiple payment options and easy financing</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Fast Delivery</h3>
+            <p>On-time project completion guaranteed</p>
+        </div>
+    </div>
+</section>
+
+<!-- Enquiry Form Section -->
+<section id="enquire" class="enquiry-section">
+    <div class="enquiry-container">
+        <div class="enquiry-text">
+            <h2>Connect With Our Team</h2>
+            <p>Fill in your details and our sales team will reach out within 24 hours</p>
+            <div class="enquiry-features">
+                <div class="feature-item">✓ Free Brochure & Floor Plans</div>
+                <div class="feature-item">✓ Site Visit Assistance</div>
+                <div class="feature-item">✓ Expert Investment Advice</div>
+                <div class="feature-item">✓ Exclusive Offers</div>
+            </div>
+        </div>
+        
+        <form id="enquiryForm" class="enquiry-form">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Full Name" required>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Phone Number" required>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <select id="projectInterest" required>
+                    <option value="">Select Project of Interest</option>
+                    <option value="The Azure">The Azure Residences</option>
+                    <option value="Titanium Hub">Titanium Business Hub</option>
+                    <option value="Green Meadows">Green Meadows</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <select id="budget" required>
+                    <option value="">Select Budget Range</option>
+                    <option value="₹50L - ₹1Cr">₹50L - ₹1Cr</option>
+                    <option value="₹1Cr - ₹3Cr">₹1Cr - ₹3Cr</option>
+                    <option value="Above ₹3Cr">Above ₹3Cr</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <textarea id="message" placeholder="Additional details or specific requirements..." rows="4"></textarea>
+            </div>
+            
+            <button type="submit" id="submitBtn" class="submit-btn">Submit Enquiry</button>
+            <div id="statusMessage" class="status-message"></div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>GridStone Developers</h4>
+            <p>Building landmarks, creating futures</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <a href="#projects">Projects</a>
+            <a href="#enquire">Enquire</a>
+        </div>
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p>📧 info@gridstone.com</p>
+            <p>📱 1800-GRIDSTONE</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 GridStone Developers. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
